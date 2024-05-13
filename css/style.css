@@ -1,0 +1,68 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: aloevera;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(52, 52, 52, 0.75),rgba(39, 39, 39, 0.44)), url("../img/bgrflw.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+header{
+	color: white;
+	
+}
+header h1{
+	
+	padding: 15px 0;
+}
+header ul{
+	
+	float: right;
+}
+header ul li{
+	
+	display: inline-block;
+}
+header ul li a{
+	
+
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: cyan;
+	color: green;
+}
+.active{
+	background-color: cyan;
+	color: green;
+}
+.banner{
+	height: 50vh;
+	
+	background-size: cover;
+	position: relative;
+	display: flex;
+	
+	padding: 100px;
+}
+
+.banner h2{
+	color: white;
+	font-family: sans-serif;
+	
+}
